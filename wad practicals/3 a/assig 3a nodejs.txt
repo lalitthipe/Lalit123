@@ -1,0 +1,54 @@
+To create a Node.js application that serves a static website, follow these steps:
+
+Step 1: Set up a new Node.js project
+Create a new directory for your project and navigate into it in your terminal or command prompt.
+```
+mkdir static-website
+cd static-website
+```
+
+Initialize a new Node.js project by running the following command and following the prompts:
+```
+npm init
+```
+
+Step 2: Install Express.js
+Install the Express.js framework, which will help us create a server and serve the static files.
+```
+npm install express
+```
+
+Step 3: Create the server file
+Create a file called `server.js` in the project directory and open it in a text editor.
+
+Add the following code to `server.js` to create a simple Express server and serve the static files:
+```javascript
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+// Serve static files from the "public" directory
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Start the server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server started on port ${port}`);
+});
+```
+
+Step 4: Create a "public" directory and add your static website files
+Create a directory called `public` in the project directory. This is where you will place your static website files, such as HTML, CSS, JavaScript, and any other assets.
+
+Place your static website files inside the `public` directory. For example, you can create an `index.html` file inside `public` and any other files or directories needed for your website.
+
+Step 5: Start the server
+In your terminal or command prompt, run the following command to start the Node.js server:
+```
+node server.js
+```
+
+The server will start running, and you can access your static website by opening a web browser and navigating to `http://localhost:3000` (or the port you specified in `server.js`).
+
+Your Node.js application is now serving the static website files from the `public` directory. Any changes you make to the files will be reflected when you refresh the webpage.

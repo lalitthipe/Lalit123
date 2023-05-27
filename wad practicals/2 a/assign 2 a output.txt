@@ -1,0 +1,103 @@
+lalit@LAPTOP-TVU6CEFH MINGW64 ~
+$ cd desktop
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop
+$ cd lalit
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit
+$ cd
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~
+$ cd desktop
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop
+$ cd lalit1
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1
+$ git init
+Initialized empty Git repository in C:/Users/lalit/Desktop/lalit1/.git/
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ git add .
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$  git commit -m "Initial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lalit@LAPTOP-TVU6CEFH.(none)')
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ ^C
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$   git config --global user.email "lalitthipe07@gmail.com"
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$  git commit -m "Initial commit"
+[master (root-commit) fa4ea10] Initial commit
+ 13 files changed, 1127 insertions(+)
+ create mode 100644 ASSIGN1.HTML
+ create mode 100644 WAD-Lab manual-for faculty.docx
+ create mode 100644 assig 2c angular.txt
+ create mode 100644 assig 3a nodejs.txt
+ create mode 100644 assig 3b.txt
+ create mode 100644 assig 4 a jquery.txt
+ create mode 100644 assign 2 b docker.txt
+ create mode 100644 assign.html
+ create mode 100644 assign1.css
+ create mode 100644 assignment 2a git.txt
+ create mode 100644 assignment1.html
+ create mode 100644 lalit.ts
+ create mode 100644 script.js
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ git remote add origin <https://github.com/lalitthipe/Lalit123.git>
+bash: syntax error near unexpected token `newline'
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ git remote add origin https://github.com/lalitthipe/Lalit123.git
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ it push -u origin master
+bash: it: command not found
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ git push -u origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 2.30 MiB | 334.00 KiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/lalitthipe/Lalit123.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$ ^C
+
+lalit@LAPTOP-TVU6CEFH MINGW64 ~/desktop/lalit1 (master)
+$
+

@@ -1,0 +1,28 @@
+  // Create Repository in github manually
+  sudo apt update
+  sudo apt install git
+  git --version
+  // Create One folder manually and create file
+  git init
+  git status
+  //Create text file
+  git add .
+  git status
+  git config --global user.email "your gmail"
+  git config --global user.name "your github name"
+  git config user.name
+  git config user.email
+  git commit -m "first commit"
+  //Generate token for your github account
+  // Steps
+  	1.Open github account
+  	2.Click on settings
+  	3.Next click on developer option
+  	4.Generate access token 
+  	5.Select all checkboxes
+  	6.Click on generate token 
+  git remote add origin <created repository in github https link >
+  git push -u origin master
+  //After push command asking for username : enter username of your github account
+  //Next asking for password : Paste generated token here
+
